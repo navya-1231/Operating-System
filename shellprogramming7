@@ -1,0 +1,23 @@
+echo "Enter the first operand :"
+read a;
+echo "1-Addition,2-Subraction,3-Multiplication,4-Division"
+echo "Enter the opertor:"
+read b;
+echo "Enter the second operand :"
+read c;
+if [ $b == 1 ]
+then
+  d=$(($a + $c));
+elif [ $b == 2 ]
+then
+  d=$(($a - $c));
+elif [ $b == 3 ]
+then
+  d=$(($a * $c));
+elif [ $b == 4 ]
+then
+  d=$(($a / $c));
+else
+ echo "Invalid operator:"
+fi
+echo "Result:$d"
