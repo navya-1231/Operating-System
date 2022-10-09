@@ -1,0 +1,11 @@
+echo "Enter first numbers:";
+read a;
+echo "Enter second numbers:";
+read b;
+if [ $a -gt $b ]
+then
+   echo "Greatest number is $a"
+else
+   echo "Greatest number is $b"
+   
+fi
