@@ -5,4 +5,3 @@ read b;
 echo "The values are $a, $b";
 sum=$(($a+$b));
 echo "The sum of $a and $b is $sum"
-
