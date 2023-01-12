@@ -6,4 +6,3 @@ do
   f=$((f * i));
 done
 echo "Factorial of $a is $f"
- 
